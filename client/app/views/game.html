@@ -2,18 +2,44 @@
 	<div class="row">
 		<div class="span12">
 			<div class="page-header">
-    		<h1>{{name}} <small>{{level}}</small> <span class="pull-right">Score</span></h1>
+    		<h1>{{name}} <small>{{level}}</small> <small>{{deck.language}}</small><span class="pull-right">Score</span></h1>
 			</div>
-						<div class="progress">
-    							<div class="bar" style="width: 60%;">1 out of 6</div>
-   						 </div>
+					<div class="container_progress">
+		     	<div class="progress progress-striped progressbar">
+		      	<div class="bar" ng-style="score_percent_style">{{scorePercentage}}%</div>  
+		     	</div>
+		  	</div>
+		  	<i ng-show="currentCard.help" popover="{{currentCard.help}}" popover-trigger="mouseenter" class="icon-question-sign"></i>
 				<div class="span8 offset2 well">
    					<div class="card">
    						<h2>Question</h2>
 					</div>
-		    <form class="form-inline">
-			    <input type="Answer" class="input-large" placeholder="Type in your answer">
-			    <button type="submit" class="btn btn-primary">Sign in</button>
-		    </form>
+				<div ng-hide="flashCardBehaviour.flipCard" class="data-entry">
+			    <form class="form-inline">
+				    <input type="input" ng-model="guess" class="input-large" placeholder="Type in your answer">
+				    <button type="submit" ng-click="checkGuess()" class="btn btn-primary">Check</button>
+			    </form>
+		  	</div>
+
+				<!-- User Data Entry for Guess -->
+<!-- <div ng-hide="flashCardBehaviour.flipCard" class="row data-entry">
+	<div class="span2">
+	</div>
+	<div class="span2">
+		<input type="text" placeholder="Enter your translation" ng-model="guess" focus-me="focusInput" />
+	</div>
+	<div class="span2">
+		<button ng-click="checkGuess(); focusInput=true" type="button" class="btn btn-primary">Check</button>
+	</div>
+</div> -->
+
+<!-- Move to next card -->
+<div ng-show="flashCardBehaviour.flipCard" class="my-feedback">
+	<div class="span2">
+		<button ng-click="moveAhead()" type="button" class="btn btn-info">Next</button>
+	</div>
+</div>
+
+
 			</div>
 	</div>
