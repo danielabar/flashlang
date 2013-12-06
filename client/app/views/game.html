@@ -1,9 +1,10 @@
 
 	<div class="row">
-		<div class="span12">
-			<div class="page-header">
-    		<h1>{{name}} <small>{{level}}</small> <small>{{deck.language}}</small><span class="pull-right">Score</span></h1>
+		<div class="span12 game">
+			<div class="page-header clearfix">
+    		<img class="thumbnail" src="img/{{deck.name}}.jpg"><h1>{{name}} <small>{{level}}</small> <small>{{deck.language}}</small><span class="pull-right">Score</span></h1>
 			</div>
+
 					<div class="container_progress">
 		     	<div class="progress progress-striped progressbar">
 		      	<div class="bar" ng-style="score_percent_style">{{scorePercentage}}%</div>  
@@ -11,7 +12,7 @@
 		  	</div>
 		  	<i ng-show="currentCard.help" popover="{{currentCard.help}}" popover-trigger="mouseenter" class="icon-question-sign"></i>
 				<div class="span8 offset2 well">
-
+					<div class="span4 offset2">
    					<div ng-if="level === 'beginner'">
 							<flashcard
 								message="message"
@@ -37,8 +38,8 @@
 								behaviour="flashCardBehaviour">
 							</flashcard>
 						</div>
-
-				<div ng-hide="flashCardBehaviour.flipCard" class="data-entry">
+					</div>
+				<div ng-hide="flashCardBehaviour.flipCard" class="data-entry span4 offset2">
 			    <form class="form-inline">
 				    <input type="input" ng-model="guess" class="input-large" placeholder="Type in your answer">
 				    <button type="submit" ng-click="checkGuess()" class="btn btn-primary">Check</button>
@@ -46,7 +47,7 @@
 		  	</div>
 
 <!-- Move to next card -->
-<div ng-show="flashCardBehaviour.flipCard" class="my-feedback">
+<div ng-show="flashCardBehaviour.flipCard" class="my-feedback pull-right">
 	<div class="span2">
 		<button ng-click="moveAhead()" type="button" class="btn btn-info">Next</button>
 	</div>

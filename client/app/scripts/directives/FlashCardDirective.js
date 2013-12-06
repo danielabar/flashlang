@@ -14,8 +14,8 @@ angular.module('flashlangApp')
 			},
       template:
       	'<div class="card">' +
-      		'<div class="span2">{{message}}</div>' +
-      		'<div class="span2">{{display}}</div>' +
+      		'<div class="question"><h3>{{message}}</h3></div>' +
+      		'<p>{{display}}</p>' +
       		'<div id="feedbackMarkerSuccess" class="circle circle-success">&#x2713;</div>' +
       		'<div id="feedbackMarkerError" class="circle circle-error">&#x2718;</div>' +
       	'</div>',
