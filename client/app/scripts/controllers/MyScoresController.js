@@ -1,6 +1,11 @@
 'use strict';
 
 angular.module('flashlangApp').controller('MyscoresCtrl', function ($scope, DeckResource, ScoreResource) {
+
+	document.getElementById("homeNavBar").className = '';
+    document.getElementById("myScoresNavBar").className = 'active';
+    document.getElementById("aboutNavBar").className = '';
+
     $scope.decks = DeckResource.query(function(response) {
 		 $scope.scoreCard = response[0];
 		 $scope.level = '';
