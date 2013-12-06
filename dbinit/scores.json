@@ -3,6 +3,7 @@
     "playedDate": "2013-12-01T04:01:58.346Z",
     "level": "Beginner",
     "score": 6,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "sei",
@@ -58,6 +59,7 @@
     "playedDate": "2013-12-02T03:47:45.504Z",
     "level": "Beginner",
     "score": 10,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "zero",
@@ -113,6 +115,7 @@
     "playedDate": "2013-12-04T03:48:45.504Z",
     "level": "Beginner",
     "score": 9,
+    "language": "Italian",
     "incorrectCards": [ 
       {
         "translated": "due",
@@ -168,6 +171,7 @@
     "playedDate": "2013-12-06T03:48:45.504Z",
     "level": "Beginner",
     "score": 11,
+    "language": "Italian",
     "incorrectCards": [ ],
     "correctCards": [
     {
@@ -222,6 +226,7 @@
     "playedDate": "2013-12-01T04:01:58.346Z",
     "level": "Intermediate",
     "score": 4,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "sei",
@@ -277,6 +282,7 @@
     "playedDate": "2013-12-02T03:47:45.504Z",
     "level": "Intermediate",
     "score": 6,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "zero",
@@ -332,6 +338,7 @@
     "playedDate": "2013-12-04T04:01:58.346Z",
     "level": "Intermediate",
     "score": 1,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "sei",
@@ -386,6 +393,7 @@
   {
     "playedDate": "2013-12-05T04:01:58.346Z",
     "level": "Intermediate",
+    "language": "Italian",
     "score": 8,
     "incorrectCards": [
       
@@ -443,6 +451,7 @@
     "playedDate": "2013-12-01T04:01:58.346Z",
     "level": "Advanced",
     "score": 7,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "sei",
@@ -498,6 +507,7 @@
     "playedDate": "2013-12-02T04:01:58.346Z",
     "level": "Advanced",
     "score": 6,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "sei",
@@ -553,6 +563,7 @@
     "playedDate": "2013-12-03T04:01:58.346Z",
     "level": "Advanced",
     "score": 5,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "sei",
@@ -608,6 +619,7 @@
     "playedDate": "2013-12-05T04:01:58.346Z",
     "level": "Advanced",
     "score": 9,
+    "language": "Italian",
     "incorrectCards": [      
       {
         "translated": "dieci",
@@ -663,6 +675,7 @@
     "playedDate": "2013-12-01T00:10:12.548Z",
     "level": "Beginner",
     "score": 5,
+    "language": "Italian",
     "incorrectCards": [
      {
         "translated": "lunedi",
@@ -714,6 +727,7 @@
     "playedDate": "2013-12-03T00:10:12.548Z",
     "level": "Beginner",
     "score": 6,
+    "language": "Italian",
     "incorrectCards": [     
       {
         "translated": "martedi",
@@ -765,6 +779,7 @@
     "playedDate": "2013-12-04T00:10:12.548Z",
     "level": "Beginner",
     "score": 9,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "lunedi",
@@ -816,6 +831,7 @@
     "playedDate": "2013-12-03T00:10:12.548Z",
     "level": "Intermediate",
     "score": 8,
+    "language": "Italian",
     "incorrectCards": [     
       {
         "translated": "giovedi",
@@ -867,6 +883,7 @@
     "playedDate": "2013-12-05T00:10:12.548Z",
     "level": "Intermediate",
     "score": 3,
+    "language": "Italian",
     "incorrectCards": [  
       {
         "translated": "giovedi",
@@ -918,6 +935,7 @@
     "playedDate": "2013-12-01T00:10:12.548Z",
     "level": "Advanced",
     "score": 1,
+    "language": "Italian",
     "incorrectCards": [
     {
         "translated": "lunedi",
@@ -969,6 +987,7 @@
     "playedDate": "2013-12-04T00:10:12.548Z",
     "level": "Advanced",
     "score": 8,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "lunedi",
@@ -1021,6 +1040,7 @@
     "playedDate": "2013-12-01T03:56:44.226Z",
     "level": "Advanced",
     "score": 4,
+    "language": "Italian",
     "incorrectCards": [
       {
         "help": "uno is for masculine nouns starting with s+consonant, ps, pn, or gn",
@@ -1072,6 +1092,7 @@
     "playedDate": "2013-12-03T03:56:44.226Z",
     "level": "Advanced",
     "score": 3,
+    "language": "Italian",
     "incorrectCards": [      
       {
         "help": "uno is for masculine nouns starting with s+consonant, ps, pn, or gn",
@@ -1123,6 +1144,7 @@
     "playedDate": "2013-12-04T03:56:44.226Z",
     "level": "Advanced",
     "score": 4,
+    "language": "Italian",
     "incorrectCards": [
       {
         "help": "un is for masculine nouns not starting with s+consonant, ps, pn, or gn",
@@ -1174,6 +1196,7 @@
     "playedDate": "2013-12-05T03:56:44.226Z",
     "level": "Advanced",
     "score": 8,
+    "language": "Italian",
     "incorrectCards": [],
     "correctCards": [
       {
@@ -1224,6 +1247,7 @@
     "playedDate": "2013-12-01T03:46:26.344Z",
     "level": "Beginner",
     "score": 2,
+    "language": "Italian",
     "incorrectCards": [
       {
         "translated": "libro",
@@ -1307,6 +1331,7 @@
     "playedDate": "2013-12-03T03:46:26.344Z",
     "level": "Beginner",
     "score": 3,
+    "language": "Italian",
     "incorrectCards": [      
       {
         "help": "Masculine nouns ending in o are pluralized by ending with an i",
@@ -1390,6 +1415,7 @@
     "playedDate": "2013-12-04T03:46:26.344Z",
     "level": "Beginner",
     "score": 6,
+    "language": "Italian",
     "incorrectCards": [      
       {
         "translated": "insegnante",
@@ -1461,7 +1487,7 @@
         "translated": "ragazzi",
         "value": "boys"
       },
-    {
+      {
         "translated": "libro",
         "value": "book"
       }
