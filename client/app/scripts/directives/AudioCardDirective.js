@@ -13,7 +13,7 @@ angular.module('flashlangApp')
       template:
       	'<div class="card">' +
       		'<div class="question"><h3>{{message}}</h3></div>' +
-      		'<img ng-click="replayAudio()" src="img/audio.gif" class="img-circle" height="42" width="42">' +
+      		 '<div class="listen">Replay Sound<img ng-click="replayAudio()" src="img/audio.png" class="img-circle"></div>' +
       		'<div class="feedback">' +
       			'<div id="feedbackMarkerSuccess" class="circle circle-success"><i class="icon-ok icon-white"></i></div>' +
       			'<div id="feedbackMarkerError" class="circle circle-error"><i class="icon-remove icon-white"></i></div>' +
