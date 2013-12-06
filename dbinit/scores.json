@@ -598,90 +598,7 @@
     ],
     "deckName": "Days of the Week",
     "outOf": 10
-  },
-  {
-    "playedDate": "2013-11-19T03:46:26.344Z",
-    "level": "Beginner",
-    "score": 2,
-    "incorrectCards": [
-      {
-        "translated": "libro",
-        "value": "book"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "libri",
-        "value": "books"
-      },
-      {
-        "translated": "dottore",
-        "value": "doctor"
-      },
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "dottori",
-        "value": "doctors"
-      },
-      {
-        "translated": "insegnante",
-        "value": "teacher"
-      },
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "insegnanti",
-        "value": "teachers"
-      },
-      {
-        "translated": "ragazza",
-        "value": "girl"
-      },
-      {
-        "help": "Feminine nounds ending in a are pluralized by ending with an e",
-        "translated": "ragazze",
-        "value": "girls"
-      },
-      {
-        "translated": "amica",
-        "value": "friend"
-      },
-      {
-        "help": "Feminine nounds ending in a are pluralized by ending with an e",
-        "translated": "amiche",
-        "value": "friends"
-      },
-      {
-        "translated": "madre",
-        "value": "mother"
-      },
-      {
-        "help": "Feminine nounds ending in e are pluralized by ending with an i",
-        "translated": "madri",
-        "value": "mothers"
-      },
-      {
-        "translated": "notte",
-        "value": "night"
-      },
-      {
-        "help": "Feminine nounds ending in e are pluralized by ending with an i",
-        "translated": "notti",
-        "value": "nights"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "ragazzo",
-        "value": "boy"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "ragazzi",
-        "value": "boys"
-      }
-    ],
-    "deckName": "Nouns Pluralization",
-    "outOf": 16
-  },  
+  },    
   {
     "playedDate": "2013-11-19T03:56:44.226Z",
     "level": "Advanced",
@@ -985,11 +902,94 @@
     ],
     "deckName": "Definite Articles",
     "outOf": 8
-  },  
+  },
+  {
+    "playedDate": "2013-11-19T03:46:26.344Z",
+    "level": "Beginner",
+    "score": 2,
+    "incorrectCards": [
+      {
+        "translated": "libro",
+        "value": "book"
+      },
+      {
+        "help": "Masculine nouns ending in o are pluralized by ending with an i",
+        "translated": "libri",
+        "value": "books"
+      },
+      {
+        "translated": "dottore",
+        "value": "doctor"
+      },
+      {
+        "help": "Masculine nouns ending in e are pluralized by ending with an i",
+        "translated": "dottori",
+        "value": "doctors"
+      },
+      {
+        "translated": "insegnante",
+        "value": "teacher"
+      },
+      {
+        "help": "Masculine nouns ending in e are pluralized by ending with an i",
+        "translated": "insegnanti",
+        "value": "teachers"
+      },
+      {
+        "translated": "ragazza",
+        "value": "girl"
+      },
+      {
+        "help": "Feminine nounds ending in a are pluralized by ending with an e",
+        "translated": "ragazze",
+        "value": "girls"
+      },
+      {
+        "translated": "amica",
+        "value": "friend"
+      },
+      {
+        "help": "Feminine nounds ending in a are pluralized by ending with an e",
+        "translated": "amiche",
+        "value": "friends"
+      },
+      {
+        "translated": "madre",
+        "value": "mother"
+      },
+      {
+        "help": "Feminine nounds ending in e are pluralized by ending with an i",
+        "translated": "madri",
+        "value": "mothers"
+      },
+      {
+        "translated": "notte",
+        "value": "night"
+      },
+      {
+        "help": "Feminine nounds ending in e are pluralized by ending with an i",
+        "translated": "notti",
+        "value": "nights"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "ragazzo",
+        "value": "boy"
+      },
+      {
+        "help": "Masculine nouns ending in o are pluralized by ending with an i",
+        "translated": "ragazzi",
+        "value": "boys"
+      }
+    ],
+    "deckName": "Nouns Pluralization",
+    "outOf": 16
+  },
   {
     "playedDate": "2013-11-20T03:46:26.344Z",
     "level": "Beginner",
-    "score": 8,
+    "score": 3,
     "incorrectCards": [      
       {
         "help": "Masculine nouns ending in o are pluralized by ending with an i",
@@ -1026,21 +1026,6 @@
       {
         "translated": "amica",
         "value": "friend"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "libro",
-        "value": "book"
-      },
-      {
-        "translated": "ragazzo",
-        "value": "boy"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "ragazzi",
-        "value": "boys"
       },
       {
         "help": "Feminine nounds ending in a are pluralized by ending with an e",
@@ -1064,195 +1049,31 @@
         "help": "Feminine nounds ending in e are pluralized by ending with an i",
         "translated": "notti",
         "value": "nights"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "ragazzo",
+        "value": "boy"
+      },
+      {
+        "help": "Masculine nouns ending in o are pluralized by ending with an i",
+        "translated": "ragazzi",
+        "value": "boys"
+      },
+    {
+        "translated": "libro",
+        "value": "book"
       }
     ],
     "deckName": "Nouns Pluralization",
     "outOf": 16
   },
   {
-    "playedDate": "2013-11-21T03:46:26.344Z",
-    "level": "Beginner",
-    "score": 16,
-    "incorrectCards": [],
-    "correctCards": [
-      {
-        "translated": "ragazzo",
-        "value": "boy"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "ragazzi",
-        "value": "boys"
-      },
-      {
-        "translated": "libro",
-        "value": "book"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "libri",
-        "value": "books"
-      },
-      {
-        "translated": "dottore",
-        "value": "doctor"
-      },
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "dottori",
-        "value": "doctors"
-      },
-      {
-        "translated": "insegnante",
-        "value": "teacher"
-      },
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "insegnanti",
-        "value": "teachers"
-      },
-      {
-        "translated": "ragazza",
-        "value": "girl"
-      },
-      {
-        "help": "Feminine nounds ending in a are pluralized by ending with an e",
-        "translated": "ragazze",
-        "value": "girls"
-      },
-      {
-        "translated": "amica",
-        "value": "friend"
-      },
-      {
-        "help": "Feminine nounds ending in a are pluralized by ending with an e",
-        "translated": "amiche",
-        "value": "friends"
-      },
-      {
-        "translated": "madre",
-        "value": "mother"
-      },
-      {
-        "help": "Feminine nounds ending in e are pluralized by ending with an i",
-        "translated": "madri",
-        "value": "mothers"
-      },
-      {
-        "translated": "notte",
-        "value": "night"
-      },
-      {
-        "help": "Feminine nounds ending in e are pluralized by ending with an i",
-        "translated": "notti",
-        "value": "nights"
-      }
-    ],
-    "deckName": "Nouns Pluralization",
-    "outOf": 16
-  },
-   {
-    "playedDate": "2013-11-21T03:46:26.344Z",
-    "level": "Beginner",
-    "score": 6,
-    "incorrectCards": [         
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "dottori",
-        "value": "doctors"
-      },
-      {
-        "translated": "insegnante",
-        "value": "teacher"
-      },
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "insegnanti",
-        "value": "teachers"
-      },
-      {
-        "translated": "ragazza",
-        "value": "girl"
-      },
-      {
-        "help": "Feminine nounds ending in a are pluralized by ending with an e",
-        "translated": "ragazze",
-        "value": "girls"
-      },
-      {
-        "translated": "amica",
-        "value": "friend"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "libri",
-        "value": "books"
-      },
-      {
-        "translated": "dottore",
-        "value": "doctor"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "libro",
-        "value": "book"
-      },
-      {
-        "translated": "ragazzo",
-        "value": "boy"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "ragazzi",
-        "value": "boys"
-      },
-      {
-        "help": "Feminine nounds ending in a are pluralized by ending with an e",
-        "translated": "amiche",
-        "value": "friends"
-      },
-      {
-        "translated": "madre",
-        "value": "mother"
-      },
-      {
-        "help": "Feminine nounds ending in e are pluralized by ending with an i",
-        "translated": "madri",
-        "value": "mothers"
-      },
-      {
-        "translated": "notte",
-        "value": "night"
-      },
-      {
-        "help": "Feminine nounds ending in e are pluralized by ending with an i",
-        "translated": "notti",
-        "value": "nights"
-      }
-    ],
-    "deckName": "Nouns Pluralization",
-    "outOf": 16
-  },
-   {
     "playedDate": "2013-11-22T03:46:26.344Z",
     "level": "Beginner",
-    "score": 8,
+    "score": 6,
     "incorrectCards": [      
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "libri",
-        "value": "books"
-      },
-      {
-        "translated": "dottore",
-        "value": "doctor"
-      },
-      {
-        "help": "Masculine nouns ending in e are pluralized by ending with an i",
-        "translated": "dottori",
-        "value": "doctors"
-      },
       {
         "translated": "insegnante",
         "value": "teacher"
@@ -1274,21 +1095,6 @@
       {
         "translated": "amica",
         "value": "friend"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "libro",
-        "value": "book"
-      },
-      {
-        "translated": "ragazzo",
-        "value": "boy"
-      },
-      {
-        "help": "Masculine nouns ending in o are pluralized by ending with an i",
-        "translated": "ragazzi",
-        "value": "boys"
       },
       {
         "help": "Feminine nounds ending in a are pluralized by ending with an e",
@@ -1312,6 +1118,35 @@
         "help": "Feminine nounds ending in e are pluralized by ending with an i",
         "translated": "notti",
         "value": "nights"
+      }
+    ],
+    "correctCards": [
+    {
+        "help": "Masculine nouns ending in o are pluralized by ending with an i",
+        "translated": "libri",
+        "value": "books"
+      },
+      {
+        "translated": "dottore",
+        "value": "doctor"
+      },
+      {
+        "help": "Masculine nouns ending in e are pluralized by ending with an i",
+        "translated": "dottori",
+        "value": "doctors"
+      },
+      {
+        "translated": "ragazzo",
+        "value": "boy"
+      },
+      {
+        "help": "Masculine nouns ending in o are pluralized by ending with an i",
+        "translated": "ragazzi",
+        "value": "boys"
+      },
+    {
+        "translated": "libro",
+        "value": "book"
       }
     ],
     "deckName": "Nouns Pluralization",
