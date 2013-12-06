@@ -1,0 +1,79 @@
+.my-feedback.ng-hide-add {
+	-webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.my-feedback.ng-hide-remove {
+	-webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.data-entry {
+	position: relative;
+}
+
+.data-entry.ng-hide-add {
+	-webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.data-entry.ng-hide-remove {
+	-webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.card-flip {
+	position: relative;
+}
+
+.card-flip.ng-enter {
+	-webkit-animation: flipInY 1s;
+  -moz-animation: flipInY 1s;
+  -ms-animation: flipInY 1s;
+  animation: flipInY 1s;
+}
+
+.my-slide-container {
+  position:relative;
+}
+.my-slide-animation.ng-enter, .my-slide-animation.ng-leave {
+  -webkit-transition:0.5s linear all;
+  -moz-transition:0.5s linear all;
+  -o-transition:0.5s linear all;
+  transition:0.5s linear all;
+
+  position:absolute;
+  left:0;
+  right:0;
+  height:600px;
+}
+
+.my-slide-animation.ng-enter {
+  z-index:100;
+  left:800px;
+  opacity:0;
+}
+
+.my-slide-animation.ng-enter.ng-enter-active {
+  left:0;
+  opacity:1;
+}
+
+.my-slide-animation.ng-leave {
+  z-index:101;
+  left:0;
+  opacity:1;
+}
+
+.my-slide-animation.ng-leave.ng-leave-active {
+  left:-800px;
+  opacity:0;
+}
