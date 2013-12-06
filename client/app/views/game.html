@@ -5,9 +5,9 @@
     		<img class="thumbnail" src="img/{{deck.name}}.jpg"><h1>{{name}} <small>{{level}}</small> <small>{{deck.language}}</small><span class="pull-right">Score</span></h1>
 			</div>
 
-					<div class="container_progress">
+			<div class="container_progress">
 		     	<div class="progress progress-striped progressbar">
-		      	<div class="bar" ng-style="score_percent_style">{{scorePercentage}}%</div>  
+		      	<div class="bar" ng-style="score_percent_style">{{progressBarText}}</div>  
 		     	</div>
 		  	</div>
 		  	<i ng-show="currentCard.help" popover="{{currentCard.help}}" popover-trigger="mouseenter" class="icon-question-sign"></i>

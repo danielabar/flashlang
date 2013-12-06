@@ -78,8 +78,14 @@ angular.module('flashlangApp')
 				var incorrect = scoreBoard.incorrectCards.length;
 				var totalCards = correct + incorrect;
 				var divide = totalCards / scoreBoard.outOf;
-   			return Math.round((divide) * 100);
-			}
+   				return Math.round((divide) * 100);
+			},
 
+			getCompletedCardNumber : function() {
+				var correct = scoreBoard.correctCards.length;
+				var incorrect = scoreBoard.incorrectCards.length;
+				var completedCards = correct + incorrect;
+   				return completedCards;
+			}
 		};
 	});
