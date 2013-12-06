@@ -21,6 +21,24 @@
 				</angulard3-line-chart>	
 			</div>
 		</div>
+		<div ng-if="scoreCard.name === 'Days of the Week' && level === ''">
+			<div id="lineChart_1" style="height: 500px; width:1000px;">				
+				<angulard3-line-chart  json-Value="{{daysOfWeeklineChartScore}}" linechart-Id="1">
+				</angulard3-line-chart>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Nouns Pluralization' && level === ''">
+			<div id="lineChart_1" style="height: 500px; width:1000px;">				
+				<angulard3-line-chart  json-Value="{{nounslineChartScore}}" linechart-Id="1">
+				</angulard3-line-chart>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Definite Articles' && level === ''">
+			<div id="lineChart_1" style="height: 500px; width:1000px;">				
+				<angulard3-line-chart  json-Value="{{articleslineChartScore}}" linechart-Id="1">
+				</angulard3-line-chart>	
+			</div>
+		</div>
  	</div>
 
   
