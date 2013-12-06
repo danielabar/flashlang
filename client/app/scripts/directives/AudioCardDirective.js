@@ -11,11 +11,13 @@ angular.module('flashlangApp')
       	behaviour: "="
       },
       template:
-      	'<div class="card"> ' +
-      		'<div class="span2">{{message}}</div>' +
+      	'<div class="card">' +
+      		'<div class="question"><h3>{{message}}</h3></div>' +
       		'<img ng-click="replayAudio()" src="img/audio.gif" class="img-circle" height="42" width="42">' +
-      		'<div id="feedbackMarkerSuccess" class="circle circle-success">&#x2713;</div>' +
-      		'<div id="feedbackMarkerError" class="circle circle-error">&#x2718;</div>' +
+      		'<div class="feedback">' +
+      			'<div id="feedbackMarkerSuccess" class="circle circle-success"><i class="icon-ok icon-white"></i></div>' +
+      			'<div id="feedbackMarkerError" class="circle circle-error"><i class="icon-remove icon-white"></i></div>' +
+      		'</div>' +
       	'</div>',
       replace: true,
 
