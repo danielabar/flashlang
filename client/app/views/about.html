@@ -1,9 +1,15 @@
-<h2>FlashLang</h2>
-<div>Version: 0.0.1</div>
-<div>Check <a href="https://github.com/danielabar/flashlang">FlashLang out on GitHub <img src="img/GitHub-Mark-32px.png"></a></div>
-
-<div>Developers:
-	<div class="media well" ng-repeat="dev in devs">
-		<div><img height="40" width="40" src="{{dev.img}}"> {{dev.name}}: <a href="{{dev.url}}">{{dev.githubid}}</a></div>
+	<div class="row">
+			<div class="span8 offset2 about">
+			<div class="page-header">					
+				<h2>FlashLang</h2>
+				<div>Version: 0.0.1</div>
+					<div>Check <a href="https://github.com/danielabar/flashlang">FlashLang out on GitHub <img src="img/GitHub-Mark-32px.png"></a></div>
+		</div>
+		<div>
+			<h4>Developers:</h4>
+			<div class="media well" ng-repeat="dev in devs">
+				<div><img height="40" width="40" src="{{dev.img}}"> {{dev.name}}: <a href="{{dev.url}}">{{dev.githubid}}</a></div>
+			</div>
+		</div>
 	</div>
 </div>
