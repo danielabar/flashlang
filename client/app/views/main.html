@@ -1,9 +1,20 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+<div class="row">
+	<div class="span10">
+	  <div class="media" ng-repeat="deck in decks">
+	  	<a class="pull-left" href="#">
+	  		<img src="images/{{deck.name}}.jpg">
+	  	</a>
+	  	<div class="media-body">
+	  		<h4 class="media-heading">
+	  			<a ng-href="#/game/level/beginner/name/{{deck.name}}">{{deck.name}}</a>
+	  		</h4>
+	  	</div>
+	  	<div class="media">
+	  		<p>{{deck.language}}</p>
+	  		<a ng-href="#/game/level/beginner/name/{{deck.name}}" class="btn btn-primary">Play beginner</a>
+	  		<a ng-href="#/game/level/intermediate/name/{{deck.name}}" class="btn btn-primary">Play intermediate</a>
+	  		<a ng-href="#/game/level/advanced/name/{{deck.name}}" class="btn btn-primary">Play advanced</a>
+	  	</div>
+	  </div>
+	</div>
 </div>
