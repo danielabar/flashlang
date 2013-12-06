@@ -27,6 +27,10 @@ angular.module('flashlangApp', [
         templateUrl: 'views/score.html',
         controller: 'ScoreCtrl'
       })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
