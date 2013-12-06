@@ -14,7 +14,7 @@
 	<br/>
 	<br/>
 
-	<div id="chartView">
+	<div id="lineChart">
 		<div ng-if="scoreCard.name === 'Numbers' && level === ''">
 			<div id="lineChart_1" style="height: 500px; width:1000px;">				
 				<angulard3-line-chart  json-Value="{{numberslineChartScore}}" linechart-Id="1">
@@ -39,6 +39,27 @@
 				</angulard3-line-chart>	
 			</div>
 		</div>
+ 	</div>
+ 	<div id="barChart">
+		<div ng-if="scoreCard.name === 'Numbers' && level === 'Beginner'">
+			<div id="barchart_1_1">
+				<angulard3-bar-graph  json-Value="{{numbersBeginnerScoreBoard}}" barchart-Id="1_1">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Numbers' && level === 'Intermediate'">
+			<div id="barchart_1_2">
+				<angulard3-bar-graph  json-Value="{{numbersIntermediateScoreBoard}}" barchart-Id="1_2">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Numbers' && level === 'Advanced'">
+			<div id="barchart_1_3">
+				<angulard3-bar-graph  json-Value="{{numbersAdvanceScoreBoard}}" barchart-Id="1_3">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+
  	</div>
 
   
