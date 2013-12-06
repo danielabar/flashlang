@@ -2,6 +2,10 @@
 
 angular.module('flashlangApp')
   .controller('AboutCtrl', function ($scope) {
+    document.getElementById("homeNavBar").className = '';
+    document.getElementById("myScoresNavBar").className = '';
+    document.getElementById("aboutNavBar").className = 'active';
+
     $scope.devs = [
     	{name : "Daniela Baron", url: "https://github.com/danielabar", githubid: "danielabar",
     	img: "https://0.gravatar.com/avatar/04a168985807599081ca491758ea9c08?d=https%3A%2F%2Fidenticons.github.com%2F21236e1132b9c12058612a951c6601e2.png&r=x&s=440"},

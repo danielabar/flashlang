@@ -61,13 +61,6 @@ angular.module('flashlangApp')
 	          });
 		    	} else {
 		    		hideMarker();
-		    		if (data && data.flipCard === false) {
-			    		$animate.addClass(element, 'animated rotateOutUpLeft', function() {
-		            $timeout(function() {
-		              $animate.removeClass(element, 'animated rotateOutUpLeft');
-		            }, 500);
-		          });
-		    		}
 		    	}
 		    });
 

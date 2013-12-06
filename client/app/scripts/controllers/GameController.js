@@ -3,7 +3,8 @@
 angular.module('flashlangApp')
 	.controller('GameCtrl', function($scope, $routeParams, GameService, DeckResource, $location, AudioService, ScoreResource) {
 
-	  $scope.level = $routeParams.level;
+ 		
+	  	$scope.level = $routeParams.level;
 		$scope.name = $routeParams.name;
 
 		DeckResource.get({name: $scope.name}, function(deckDetails) {
