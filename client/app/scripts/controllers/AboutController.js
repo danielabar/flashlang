@@ -2,9 +2,7 @@
 
 angular.module('flashlangApp')
   .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.devs = [
+    {name: "Ben Hall", url: "", img: ""}
     ];
   });
