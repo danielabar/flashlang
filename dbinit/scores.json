@@ -1,6 +1,6 @@
 [
   {
-    "playedDate": "2013-11-18T04:01:58.346Z",
+    "playedDate": "2013-12-01T04:01:58.346Z",
     "level": "Beginner",
     "score": 6,
     "incorrectCards": [
@@ -55,7 +55,7 @@
     "outOf": 11
   },
   {
-    "playedDate": "2013-11-20T03:47:45.504Z",
+    "playedDate": "2013-12-02T03:47:45.504Z",
     "level": "Beginner",
     "score": 10,
     "incorrectCards": [
@@ -110,7 +110,62 @@
     "outOf": 11
   },
   {
-    "playedDate": "2013-11-25T03:48:45.504Z",
+    "playedDate": "2013-12-04T03:48:45.504Z",
+    "level": "Beginner",
+    "score": 9,
+    "incorrectCards": [ 
+      {
+        "translated": "due",
+        "value": "two"
+      },
+      {
+        "translated": "tre",
+        "value": "three"
+      }
+     ],
+    "correctCards": [
+      {
+        "translated": "zero",
+        "value": "zero"
+      },
+      {
+        "translated": "uno",
+        "value": "one"
+      },      
+      {
+        "translated": "quattro",
+        "value": "four"
+      },
+      {
+        "translated": "cinque",
+        "value": "five"
+      },
+      {
+        "translated": "sei",
+        "value": "six"
+      },
+      {
+        "translated": "sette",
+        "value": "seven"
+      },
+      {
+        "translated": "otto",
+        "value": "eight"
+      },
+      {
+        "translated": "nove",
+        "value": "nine"
+      },
+      {
+        "translated": "dieci",
+        "value": "ten"
+      }
+    ],
+    "deckName": "Numbers",
+    "outOf": 11
+  },
+  {
+    "playedDate": "2013-12-06T03:48:45.504Z",
     "level": "Beginner",
     "score": 11,
     "incorrectCards": [ ],
@@ -164,227 +219,7 @@
     "outOf": 11
   },
   {
-    "playedDate": "2013-11-19T04:01:58.346Z",
-    "level": "Intermediate",
-    "score": 4,
-    "incorrectCards": [
-      {
-        "translated": "sei",
-        "value": "six"
-      },
-      {
-        "translated": "sette",
-        "value": "seven"
-      },
-      {
-        "translated": "otto",
-        "value": "eight"
-      },
-      {
-        "translated": "nove",
-        "value": "nine"
-      },
-      {
-        "translated": "dieci",
-        "value": "ten"
-      },
-      {
-        "translated": "quattro",
-        "value": "four"
-      },
-      {
-        "translated": "cinque",
-        "value": "five"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "zero",
-        "value": "zero"
-      },
-      {
-        "translated": "uno",
-        "value": "one"
-      },
-      {
-        "translated": "due",
-        "value": "two"
-      },
-      {
-        "translated": "tre",
-        "value": "three"
-      }
-    ],
-    "deckName": "Numbers",
-    "outOf": 11
-  },
-  {
-    "playedDate": "2013-11-22T03:47:45.504Z",
-    "level": "Intermediate",
-    "score": 6,
-    "incorrectCards": [
-      {
-        "translated": "zero",
-        "value": "zero"
-      },
-      {
-        "translated": "sette",
-        "value": "seven"
-      },
-      {
-        "translated": "otto",
-        "value": "eight"
-      },
-      {
-        "translated": "nove",
-        "value": "nine"
-      },
-      {
-        "translated": "dieci",
-        "value": "ten"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "uno",
-        "value": "one"
-      },
-      {
-        "translated": "due",
-        "value": "two"
-      },
-      {
-        "translated": "tre",
-        "value": "three"
-      },
-      {
-        "translated": "quattro",
-        "value": "four"
-      },
-      {
-        "translated": "cinque",
-        "value": "five"
-      },
-      {
-        "translated": "sei",
-        "value": "six"
-      }
-    ],
-    "deckName": "Numbers",
-    "outOf": 11
-  },
-  {
-    "playedDate": "2013-11-25T03:48:45.504Z",
-    "level": "Intermediate",
-    "score": 9,
-    "incorrectCards": [
-    {
-        "translated": "zero",
-        "value": "zero"
-      },
-      {
-        "translated": "uno",
-        "value": "one"
-      }
-  ],
-    "correctCards": [   
-      {
-        "translated": "due",
-        "value": "two"
-      },
-      {
-        "translated": "tre",
-        "value": "three"
-      },
-      {
-        "translated": "quattro",
-        "value": "four"
-      },
-      {
-        "translated": "cinque",
-        "value": "five"
-      },
-      {
-        "translated": "sei",
-        "value": "six"
-      },
-      {
-        "translated": "sette",
-        "value": "seven"
-      },
-      {
-        "translated": "otto",
-        "value": "eight"
-      },
-      {
-        "translated": "nove",
-        "value": "nine"
-      },
-      {
-        "translated": "dieci",
-        "value": "ten"
-      }
-    ],
-    "deckName": "Numbers",
-    "outOf": 11
-  },
-  {
-    "playedDate": "2013-11-23T04:01:58.346Z",
-    "level": "Intermediate",
-    "score": 1,
-    "incorrectCards": [
-      {
-        "translated": "sei",
-        "value": "six"
-      },
-      {
-        "translated": "sette",
-        "value": "seven"
-      },
-      {
-        "translated": "otto",
-        "value": "eight"
-      },
-      {
-        "translated": "nove",
-        "value": "nine"
-      },
-      {
-        "translated": "dieci",
-        "value": "ten"
-      },
-      {
-        "translated": "uno",
-        "value": "one"
-      },
-      {
-        "translated": "due",
-        "value": "two"
-      },
-      {
-        "translated": "tre",
-        "value": "three"
-      },
-      {
-        "translated": "quattro",
-        "value": "four"
-      },
-      {
-        "translated": "cinque",
-        "value": "five"
-      }
-    ],
-    "correctCards": [
-      {
-        "translated": "zero",
-        "value": "zero"
-      }      
-    ],
-    "deckName": "Numbers",
-    "outOf": 11
-  },
-  {
-    "playedDate": "2013-11-20T04:01:58.346Z",
+    "playedDate": "2013-12-01T04:01:58.346Z",
     "level": "Advanced",
     "score": 7,
     "incorrectCards": [
@@ -439,7 +274,7 @@
     "outOf": 11
   },
   {
-    "playedDate": "2013-11-25T04:01:58.346Z",
+    "playedDate": "2013-12-02T04:01:58.346Z",
     "level": "Advanced",
     "score": 6,
     "incorrectCards": [
@@ -494,7 +329,7 @@
     "outOf": 11
   },
   {
-    "playedDate": "2013-11-24T04:01:58.346Z",
+    "playedDate": "2013-12-03T04:01:58.346Z",
     "level": "Advanced",
     "score": 5,
     "incorrectCards": [
@@ -549,7 +384,262 @@
     "outOf": 11
   },
   {
-    "playedDate": "2013-11-20T00:10:12.548Z",
+    "playedDate": "2013-12-01T00:10:12.548Z",
+    "level": "Beginner",
+    "score": 5,
+    "incorrectCards": [
+     {
+        "translated": "lunedi",
+        "value": "Monday"
+      },
+      {
+        "translated": "martedi",
+        "value": "Tuesday"
+      },
+      {
+        "translated": "mercoledi",
+        "value": "Wednesday"
+      },
+      {
+        "translated": "giovedi",
+        "value": "Thursday"
+      },
+      {
+        "translated": "venerdi",
+        "value": "Friday"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "sabato",
+        "value": "Saturday"
+      },
+      {
+        "translated": "domenica",
+        "value": "Sunday"
+      },
+      {
+        "translated": "ieri",
+        "value": "yesterday"
+      },
+      {
+        "translated": "oggi",
+        "value": "today"
+      },
+      {
+        "translated": "domani",
+        "value": "tomorrow"
+      }
+    ],
+    "deckName": "Days of the Week",
+    "outOf": 10
+  },
+  {
+    "playedDate": "2013-12-03T00:10:12.548Z",
+    "level": "Beginner",
+    "score": 6,
+    "incorrectCards": [     
+      {
+        "translated": "martedi",
+        "value": "Tuesday"
+      },
+      {
+        "translated": "mercoledi",
+        "value": "Wednesday"
+      },
+      {
+        "translated": "giovedi",
+        "value": "Thursday"
+      },
+      {
+        "translated": "venerdi",
+        "value": "Friday"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "lunedi",
+        "value": "Monday"
+      },
+      {
+        "translated": "sabato",
+        "value": "Saturday"
+      },
+      {
+        "translated": "domenica",
+        "value": "Sunday"
+      },
+      {
+        "translated": "ieri",
+        "value": "yesterday"
+      },
+      {
+        "translated": "oggi",
+        "value": "today"
+      },
+      {
+        "translated": "domani",
+        "value": "tomorrow"
+      }
+    ],
+    "deckName": "Days of the Week",
+    "outOf": 10
+  },
+  {
+    "playedDate": "2013-12-04T00:10:12.548Z",
+    "level": "Beginner",
+    "score": 9,
+    "incorrectCards": [
+      {
+        "translated": "lunedi",
+        "value": "Monday"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "martedi",
+        "value": "Tuesday"
+      },
+      {
+        "translated": "mercoledi",
+        "value": "Wednesday"
+      },
+      {
+        "translated": "giovedi",
+        "value": "Thursday"
+      },
+      {
+        "translated": "venerdi",
+        "value": "Friday"
+      },
+      {
+        "translated": "sabato",
+        "value": "Saturday"
+      },
+      {
+        "translated": "domenica",
+        "value": "Sunday"
+      },
+      {
+        "translated": "ieri",
+        "value": "yesterday"
+      },
+      {
+        "translated": "oggi",
+        "value": "today"
+      },
+      {
+        "translated": "domani",
+        "value": "tomorrow"
+      }
+    ],
+    "deckName": "Days of the Week",
+    "outOf": 10
+  },
+  {
+    "playedDate": "2013-12-03T00:10:12.548Z",
+    "level": "Intermediate",
+    "score": 8,
+    "incorrectCards": [     
+      {
+        "translated": "giovedi",
+        "value": "Thursday"
+      },
+      {
+        "translated": "venerdi",
+        "value": "Friday"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "lunedi",
+        "value": "Monday"
+      },
+      {
+        "translated": "martedi",
+        "value": "Tuesday"
+      },
+      {
+        "translated": "mercoledi",
+        "value": "Wednesday"
+      },
+      {
+        "translated": "sabato",
+        "value": "Saturday"
+      },
+      {
+        "translated": "domenica",
+        "value": "Sunday"
+      },
+      {
+        "translated": "ieri",
+        "value": "yesterday"
+      },
+      {
+        "translated": "oggi",
+        "value": "today"
+      },
+      {
+        "translated": "domani",
+        "value": "tomorrow"
+      }
+    ],
+    "deckName": "Days of the Week",
+    "outOf": 10
+  },
+  {
+    "playedDate": "2013-12-05T00:10:12.548Z",
+    "level": "Intermediate",
+    "score": 3,
+    "incorrectCards": [  
+      {
+        "translated": "giovedi",
+        "value": "Thursday"
+      },
+      {
+        "translated": "venerdi",
+        "value": "Friday"
+      },   
+      {
+        "translated": "sabato",
+        "value": "Saturday"
+      },
+      {
+        "translated": "domenica",
+        "value": "Sunday"
+      },
+      {
+        "translated": "ieri",
+        "value": "yesterday"
+      },
+      {
+        "translated": "oggi",
+        "value": "today"
+      },
+      {
+        "translated": "domani",
+        "value": "tomorrow"
+      }      
+    ],
+    "correctCards": [
+      {
+        "translated": "lunedi",
+        "value": "Monday"
+      },
+      {
+        "translated": "martedi",
+        "value": "Tuesday"
+      },
+      {
+        "translated": "mercoledi",
+        "value": "Wednesday"
+      }     
+    ],
+    "deckName": "Days of the Week",
+    "outOf": 10
+  },
+  {
+    "playedDate": "2013-12-01T00:10:12.548Z",
     "level": "Advanced",
     "score": 1,
     "incorrectCards": [
@@ -598,60 +688,9 @@
     ],
     "deckName": "Days of the Week",
     "outOf": 10
-  },    
+  },
   {
-    "playedDate": "2013-11-19T03:56:44.226Z",
-    "level": "Advanced",
-    "score": 4,
-    "incorrectCards": [
-      {
-        "help": "uno is for masculine nouns starting with s+consonant, ps, pn, or gn",
-        "translated": "uno pneumatico",
-        "value": "a tire"
-      },
-      {
-        "help": "uno is for masculine nouns starting with s+consonant, ps, pn, or gn",
-        "translated": "uno gnome",
-        "value": "a gnome"
-      },
-      {
-        "help": "un' is used for feminine nouns starting with a vowel",
-        "translated": "un'amica",
-        "value": "a female friend"
-      },
-      {
-        "help": "un' is used for feminine nouns starting with a vowel",
-        "translated": "un'ora",
-        "value": "an hour"
-      }
-    ],
-    "correctCards": [
-      {
-        "help": "un is for masculine nouns not starting with s+consonant, ps, pn, or gn",
-        "translated": "un libro",
-        "value": "a book"
-      },
-      {
-        "help": "un is for masculine nouns not starting with s+consonant, ps, pn, or gn",
-        "translated": "un albero",
-        "value": "a tree"
-      },
-      {
-        "help": "una is used for feminine nouns starting with a consonant",
-        "translated": "una ragazza",
-        "value": "a girl"
-      },
-      {
-        "help": "una is used for feminine nouns starting with a consonant",
-        "translated": "una zia",
-        "value": "an aunt"
-      }
-    ],
-    "deckName": "Definite Articles",
-    "outOf": 8
-  },  
-  {
-    "playedDate": "2013-11-25T00:10:12.548Z",
+    "playedDate": "2013-12-04T00:10:12.548Z",
     "level": "Advanced",
     "score": 8,
     "incorrectCards": [
@@ -701,58 +740,60 @@
     "deckName": "Days of the Week",
     "outOf": 10
   },
+  
   {
-    "playedDate": "2013-11-21T00:10:12.548Z",
-    "level": "Beginner",
-    "score": 10,
-    "incorrectCards": [],
-    "correctCards": [
+    "playedDate": "2013-12-01T03:56:44.226Z",
+    "level": "Advanced",
+    "score": 4,
+    "incorrectCards": [
       {
-        "translated": "lunedi",
-        "value": "Monday"
+        "help": "uno is for masculine nouns starting with s+consonant, ps, pn, or gn",
+        "translated": "uno pneumatico",
+        "value": "a tire"
       },
       {
-        "translated": "martedi",
-        "value": "Tuesday"
+        "help": "uno is for masculine nouns starting with s+consonant, ps, pn, or gn",
+        "translated": "uno gnome",
+        "value": "a gnome"
       },
       {
-        "translated": "mercoledi",
-        "value": "Wednesday"
+        "help": "un' is used for feminine nouns starting with a vowel",
+        "translated": "un'amica",
+        "value": "a female friend"
       },
       {
-        "translated": "giovedi",
-        "value": "Thursday"
-      },
-      {
-        "translated": "venerdi",
-        "value": "Friday"
-      },
-      {
-        "translated": "sabato",
-        "value": "Saturday"
-      },
-      {
-        "translated": "domenica",
-        "value": "Sunday"
-      },
-      {
-        "translated": "ieri",
-        "value": "yesterday"
-      },
-      {
-        "translated": "oggi",
-        "value": "today"
-      },
-      {
-        "translated": "domani",
-        "value": "tomorrow"
+        "help": "un' is used for feminine nouns starting with a vowel",
+        "translated": "un'ora",
+        "value": "an hour"
       }
     ],
-    "deckName": "Days of the Week",
-    "outOf": 10
-  },
+    "correctCards": [
+      {
+        "help": "un is for masculine nouns not starting with s+consonant, ps, pn, or gn",
+        "translated": "un libro",
+        "value": "a book"
+      },
+      {
+        "help": "un is for masculine nouns not starting with s+consonant, ps, pn, or gn",
+        "translated": "un albero",
+        "value": "a tree"
+      },
+      {
+        "help": "una is used for feminine nouns starting with a consonant",
+        "translated": "una ragazza",
+        "value": "a girl"
+      },
+      {
+        "help": "una is used for feminine nouns starting with a consonant",
+        "translated": "una zia",
+        "value": "an aunt"
+      }
+    ],
+    "deckName": "Definite Articles",
+    "outOf": 8
+  },   
   {
-    "playedDate": "2013-11-20T03:56:44.226Z",
+    "playedDate": "2013-12-03T03:56:44.226Z",
     "level": "Advanced",
     "score": 3,
     "incorrectCards": [      
@@ -803,7 +844,7 @@
     "outOf": 8
   },
   {
-    "playedDate": "2013-11-25T03:56:44.226Z",
+    "playedDate": "2013-12-04T03:56:44.226Z",
     "level": "Advanced",
     "score": 4,
     "incorrectCards": [
@@ -854,7 +895,7 @@
     "outOf": 8
   },
   {
-    "playedDate": "2013-11-22T03:56:44.226Z",
+    "playedDate": "2013-12-05T03:56:44.226Z",
     "level": "Advanced",
     "score": 8,
     "incorrectCards": [],
@@ -904,7 +945,7 @@
     "outOf": 8
   },
   {
-    "playedDate": "2013-11-19T03:46:26.344Z",
+    "playedDate": "2013-12-01T03:46:26.344Z",
     "level": "Beginner",
     "score": 2,
     "incorrectCards": [
@@ -987,7 +1028,7 @@
     "outOf": 16
   },
   {
-    "playedDate": "2013-11-20T03:46:26.344Z",
+    "playedDate": "2013-12-03T03:46:26.344Z",
     "level": "Beginner",
     "score": 3,
     "incorrectCards": [      
@@ -1070,7 +1111,7 @@
     "outOf": 16
   },
   {
-    "playedDate": "2013-11-22T03:46:26.344Z",
+    "playedDate": "2013-12-04T03:46:26.344Z",
     "level": "Beginner",
     "score": 6,
     "incorrectCards": [      
