@@ -1,9 +1,13 @@
 'use strict';
 
 angular.module('flashlangApp', [
+  'ngRoute',
   'ngCookies',
   'ngResource',
-  'ngSanitize'
+  'ngSanitize',
+  'ngAnimate',
+  'ui.bootstrap',
+  'underscore'
 ])
   .config(function ($routeProvider) {
     $routeProvider
