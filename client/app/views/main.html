@@ -1,16 +1,20 @@
 <div class="row">
-  <ul>
-      <li><a href="/#/game/level/beginner/name/Numbers">Numbers (Beginner)</a></li>
-      <li><a href="/#/game/level/intermediate/name/Numbers">Numbers (Intermediate)</a></li>
-      <li><a href="/#/game/level/advanced/name/Numbers">Numbers (Advanced)</a></li>
-      <li><a href="/#/game/level/beginner/name/Days of the Week">Days of the Week (Beginner)</a></li>
-      <li><a href="/#/game/level/intermediate/name/Days of the Week">Days of the Week (Intermediate)</a></li>
-      <li><a href="/#/game/level/advanced/name/Days of the Week">Days of the Week (Advanced)</a></li>
-      <li><a href="/#/game/level/beginner/name/Nouns Pluralization">Nouns Pluralization (Beginner)</a></li>
-      <li><a href="/#/game/level/intermediate/name/Nouns Pluralization">Nouns Pluralization (Intermediate)</a></li>
-      <li><a href="/#/game/level/advanced/name/Nouns Pluralization">Nouns Pluralization (Advanced)</a></li>
-      <li><a href="/#/game/level/beginner/name/Definite Articles">Definite Articles (Beginner)</a></li>
-      <li><a href="/#/game/level/intermediate/name/Definite Articles">Definite Articles (Intermediate)</a></li>
-      <li><a href="/#/game/level/advanced/name/Definite Articles">Definite Articles (Advanced)</a></li>
-  </ul>
+	<div class="span10">
+	  <div class="media" ng-repeat="deck in decks">
+	  	<a class="pull-left" href="#">
+	  		<img src="http://placeholder.it/250x150">
+	  	</a>
+	  	<div class="media-body">
+	  		<h4 class="media-heading">
+	  			<a ng-href="#/game/level/beginner/name/{{deck.name}}">{{deck.name}}</a>
+	  		</h4>
+	  	</div>
+	  	<div class="media">
+	  		<p>{{deck.language}}</p>
+	  		<a ng-href="#/game/level/beginner/name/{{deck.name}}" class="btn btn-primary">Play beginner</a>
+	  		<a ng-href="#/game/level/intermediate/name/{{deck.name}}" class="btn btn-primary">Play intermediate</a>
+	  		<a ng-href="#/game/level/advanced/name/{{deck.name}}" class="btn btn-primary">Play advanced</a>
+	  	</div>
+	  </div>
+	</div>
 </div>

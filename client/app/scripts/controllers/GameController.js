@@ -1,12 +1,12 @@
 'use strict';
 
 angular.module('flashlangApp')
-	.controller('GameCtrl', function($scope, $routeParams, GameService, Deck, $location, AudioService, ScoreResource) {
+	.controller('GameCtrl', function($scope, $routeParams, GameService, DeckResource, $location, AudioService, ScoreResource) {
 
 	  $scope.level = $routeParams.level;
 		$scope.name = $routeParams.name;
 
-		Deck.get({name: $scope.name}, function(deckDetails) {
+		DeckResource.get({name: $scope.name}, function(deckDetails) {
    		$scope.deck = deckDetails;
    		GameService.initGame(deckDetails, $scope.level);
    		$scope.currentCard = GameService.getNextCard();

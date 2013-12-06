@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('flashlangApp')
-	.factory('Deck', function($resource) {
+	.factory('DeckResource', function($resource) {
 		return $resource('/deck/:name');
 	});
