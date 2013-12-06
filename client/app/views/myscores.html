@@ -22,25 +22,26 @@
 			</div>
 		</div>
 		<div ng-if="scoreCard.name === 'Days of the Week' && level === ''">
-			<div id="lineChart_1" style="height: 500px; width:1000px;">				
-				<angulard3-line-chart  json-Value="{{daysOfWeeklineChartScore}}" linechart-Id="1">
+			<div id="lineChart_2" style="height: 500px; width:1000px;">				
+				<angulard3-line-chart  json-Value="{{daysOfWeeklineChartScore}}" linechart-Id="2">
 				</angulard3-line-chart>	
 			</div>
 		</div>
 		<div ng-if="scoreCard.name === 'Nouns Pluralization' && level === ''">
-			<div id="lineChart_1" style="height: 500px; width:1000px;">				
-				<angulard3-line-chart  json-Value="{{nounslineChartScore}}" linechart-Id="1">
+			<div id="lineChart_3" style="height: 500px; width:1000px;">				
+				<angulard3-line-chart  json-Value="{{nounslineChartScore}}" linechart-Id="3">
 				</angulard3-line-chart>	
 			</div>
 		</div>
 		<div ng-if="scoreCard.name === 'Definite Articles' && level === ''">
-			<div id="lineChart_1" style="height: 500px; width:1000px;">				
-				<angulard3-line-chart  json-Value="{{articleslineChartScore}}" linechart-Id="1">
+			<div id="lineChart_4" style="height: 500px; width:1000px;">				
+				<angulard3-line-chart  json-Value="{{articleslineChartScore}}" linechart-Id="4">
 				</angulard3-line-chart>	
 			</div>
 		</div>
  	</div>
  	<div id="barChart">
+ 		<!-- Section For Numbers Bar Chart with different levels -->
 		<div ng-if="scoreCard.name === 'Numbers' && level === 'Beginner'">
 			<div id="barchart_1_1">
 				<angulard3-bar-graph  json-Value="{{numbersBeginnerScoreBoard}}" barchart-Id="1_1">
@@ -56,6 +57,64 @@
 		<div ng-if="scoreCard.name === 'Numbers' && level === 'Advanced'">
 			<div id="barchart_1_3">
 				<angulard3-bar-graph  json-Value="{{numbersAdvanceScoreBoard}}" barchart-Id="1_3">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<!-- Section For Days of the Week Bar Chart with different levels -->
+		<div ng-if="scoreCard.name === 'Days of the Week' && level === 'Beginner'">
+			<div id="barchart_2_1">
+				<angulard3-bar-graph  json-Value="{{daysOfWeekBeginnerScoreBoard}}" barchart-Id="2_1">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Days of the Week' && level === 'Intermediate'">
+			<div id="barchart_2_2">
+				<angulard3-bar-graph  json-Value="{{daysOfWeekIntermediateScoreBoard}}" barchart-Id="2_2">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Days of the Week' && level === 'Advanced'">
+			<div id="barchart_2_3">
+				<angulard3-bar-graph  json-Value="{{daysOfWeekAdvanceScoreBoard}}" barchart-Id="2_3">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<!-- Section For Nouns Pluralization Bar Chart with different levels -->
+		<div ng-if="scoreCard.name === 'Nouns Pluralization' && level === 'Beginner'">
+			<div id="barchart_3_1">
+				<angulard3-bar-graph  json-Value="{{nounsBeginnerScoreBoard}}" barchart-Id="3_1">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Nouns Pluralization' && level === 'Intermediate'">
+			<div id="barchart_2_2">
+				<angulard3-bar-graph  json-Value="{{nounsIntermediateScoreBoard}}" barchart-Id="2_2">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Nouns Pluralization' && level === 'Advanced'">
+			<div id="barchart_2_3">
+				<angulard3-bar-graph  json-Value="{{nounsAdvanceScoreBoard}}" barchart-Id="2_3">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+
+		<!-- Section For Nouns Pluralization Bar Chart with different levels -->
+		<div ng-if="scoreCard.name === 'Definite Articles' && level === 'Beginner'">
+			<div id="barchart_3_1">
+				<angulard3-bar-graph  json-Value="{{articlesBeginnerScoreBoard}}" barchart-Id="3_1">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Definite Articles' && level === 'Intermediate'">
+			<div id="barchart_3_2">
+				<angulard3-bar-graph  json-Value="{{articlesIntermediateScoreBoard}}" barchart-Id="3_2">
+				</angulard3-bar-graph>	
+			</div>
+		</div>
+		<div ng-if="scoreCard.name === 'Definite Articles' && level === 'Advanced'">
+			<div id="barchart_3_3">
+				<angulard3-bar-graph  json-Value="{{articlesAdvanceScoreBoard}}" barchart-Id="3_3">
 				</angulard3-bar-graph>	
 			</div>
 		</div>
