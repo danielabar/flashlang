@@ -19,7 +19,7 @@ angular.module('flashlangApp')
   	};
 
   	var beginnerCheck = function(card, guess) {
-  		return (card.value === guess);
+  		return (card.value.toUpperCase() === guess.toUpperCase());
   	};
 
   	var advancedCheck = function(card, guess) {
