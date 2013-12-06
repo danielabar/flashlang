@@ -24,6 +24,7 @@ angular.module('flashlangApp').directive('angulard3BarGraph', function () {
 						    retObject.score = percentageScore;
 						    retObject.actualScore = scoreObj.score;
 						    retObject.playedDate = scoreObj.playedDate;
+						    retObject.outOf = scoreObj.outOf;
 						    retObject.id = scoreObj._id;
 						    return retObject;
 						}).value();
@@ -104,7 +105,7 @@ angular.module('flashlangApp').directive('angulard3BarGraph', function () {
 			  .attr('class', 'd3-tip')
 			  .offset([-10, 0])
 			  .html(function(d) {
-			    return "<strong>Score:</strong> <span style='color:white'>" + d.actualScore + "</span>";
+			    return "<strong>Score:</strong> <span style='color:white'>" + d.actualScore + " / " + d.outOf + "</span>";
 			  })
 
 			
