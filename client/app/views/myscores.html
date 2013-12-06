@@ -1,1 +1,20 @@
-<p>This is the myscores view.</p>
+  <div style="float:left; margin:5px; margin-right:10px;"> Select Game :  </div> 
+ 	<div>
+ 		<select ng-model="scoreCard" ng-options="d.name for d in decks" ng-change="scoreCardChanged();">
+  	</select>
+  </div>
+  <div style="margin-top:10px;">
+	  <div style="float:left; margin:5px; margin-right:10px;"> Select Level:  </div> 
+	  <div>
+	  		<input type="radio" ng-model="level" value="Beginner"> Beginner </input>
+	  		<input type="radio" ng-model="level" value="Intermediate"> Intermediate </input>
+	  		<input type="radio" ng-model="level" value="Advanced"> Advanced </input>
+	  </div>
+  </div>
+  <br/>
+  <br/>
+
+  
+
+	
+

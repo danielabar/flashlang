@@ -1,10 +1,14 @@
 'use strict';
 
 angular.module('flashlangApp')
-  .controller('MyscoresCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MyscoresCtrl', function ($scope, Deck) {
+    $scope.decks = Deck.query(function(response) {
+		 $scope.scoreCard = response[0];
+		 $scope.level = '';
+	});
+
+	$scope.scoreCardChanged = function(){
+		$scope.level = '';
+	};
+	
   });
