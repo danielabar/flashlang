@@ -43,9 +43,9 @@ angular.module('flashlangApp').directive('angulard3LineChart', function () {
 						    return retObject;
 	    				}).value();
 					
-			    	var jsonObject = [{values: beginnerValues, key: 'Beginner', color: '#ff7f0e'},
-			    					  {values: intermediateValues,key: 'Intermediate', color: '#2ca02c'},
-									  {values: advanceValues,key: 'Advanced', color: '#0080f1'}];
+			    	var jsonObject = [{values: beginnerValues, key: 'Beginner', color: '#46a546'},
+			    					  {values: intermediateValues,key: 'Intermediate', color: '#f89406'},
+									  {values: advanceValues,key: 'Advanced', color: '#9d261d'}];
 
 					nv.addGraph(function() {  
 					  	var chart = nv.models.lineChart();
