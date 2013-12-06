@@ -15,6 +15,7 @@ angular.module('flashlangApp')
      	scoreBoard.incorrectCards = [];
      	scoreBoard.correctCards = [];
      	scoreBoard.outOf = deck.cards.length;
+     	scoreBoard.language = deck.language;
   	};
 
   	var beginnerCheck = function(card, guess) {
