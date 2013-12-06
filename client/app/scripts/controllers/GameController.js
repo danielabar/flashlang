@@ -20,7 +20,10 @@ angular.module('flashlangApp')
 			$scope.flashCardBehaviour = {flipCard: true, isAnswerCorrect: result};
 			$scope.scoreBoard = GameService.updateScoreBoard(result, $scope.currentCard);
 			$scope.scorePercentage = GameService.getScorePercentage();
-			$scope.score_percent_style = {  "width": $scope.scorePercentage +'%'  };
+			$scope.totalCards  = $scope.deck.cards.length;			
+			$scope.completedCards = GameService.getCompletedCardNumber();
+			$scope.progressBarText = $scope.completedCards  + " / " + $scope.totalCards;
+			$scope.score_percent_style = {  "width": $scope.scorePercentage + '%' };
 		};
 
 		$scope.moveAhead = function() {
