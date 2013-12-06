@@ -12,7 +12,7 @@
 </div>
 
 <div class="row">
-	<div class="span6">
+	<div class="span6" ng-if="score.incorrectCards.length > 0">
 		<table class="table">
 			<tbody>
 				<tr>
@@ -28,7 +28,7 @@
 			</tr>
 		</table>
 	</div>
-		<div class="span6">
+	<div class="span6" ng-if="score.correctCards.length > 0">
 		<table class="table">
 			<tbody>
 				<tr>
