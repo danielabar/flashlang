@@ -24,6 +24,7 @@ angular.module('flashlangApp').directive('angulard3BarGraph', function () {
 						    retObject.score = percentageScore;
 						    retObject.actualScore = scoreObj.score;
 						    retObject.playedDate = scoreObj.playedDate;
+						    retObject.id = scoreObj._id;
 						    return retObject;
 						}).value();
 
@@ -31,14 +32,16 @@ angular.module('flashlangApp').directive('angulard3BarGraph', function () {
 				  	 return d.playedDate; 
 				  }));
 				  y.domain([0, 1]);
-				  var barchartId = "barchart_"+scope.barchartId;
+				  
+				var barchartId = "barchart_"+scope.barchartId;
+
 				  var svg = d3.select("#"+barchartId).append("svg")
 			    	.attr("width", width + margin.left + margin.right)
 				    .attr("height", height + margin.top + margin.bottom)
 				    .append("g")
 				    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-					svg.call(tip);
+				  svg.call(tip);
 
 				  svg.append("g")
 				      .attr("class", "x axis")
@@ -57,19 +60,24 @@ angular.module('flashlangApp').directive('angulard3BarGraph', function () {
 
 				  var myBarChart = svg.selectAll(".bar")
 				      .data(data)
-				    	.enter().append("rect")
+				      .enter().append("rect")
 				      .attr("class", "bar")
 				      .attr("x", function(d) { return x(d.playedDate); })
 				      .attr("width", x.rangeBand())
 				      .attr("y", height)
-				      .attr("height", 0)
+				      .attr("height", 0)				          
 				      .on('mouseover', tip.show)
 				      .on('mouseout', tip.hide);
 
-			  		myBarChart.transition()
-  		  			.delay(function(d, i) { return i * 200; })
+			  		myBarChart.transition().delay(function(d, i) { return i * 200; })
     					.attr("y", function(d) { return y(d.score);})
-    					.attr("height", function(d) { return height - y(d.score); });    					
+    					.attr("height", function(d) { return height - y(d.score); });  
+
+    				myBarChart.on('click', function(d,i) {
+    					var barObject = d;
+    					var locationUrl = "http://localhost:3000/#/score/" + barObject.id;
+    					window.location.href = locationUrl;
+    				}) ;					
     			}
 	    });
 
@@ -98,6 +106,8 @@ angular.module('flashlangApp').directive('angulard3BarGraph', function () {
 			  .html(function(d) {
 			    return "<strong>Score:</strong> <span style='color:white'>" + d.actualScore + "</span>";
 			  })
+
+			
 		}
 	}
 })
