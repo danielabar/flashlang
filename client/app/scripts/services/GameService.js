@@ -35,6 +35,7 @@ angular.module('flashlangApp')
 
 			initGame: function (deckToPlay, level) {
       	deck = deckToPlay;
+      	deck.cards = _.shuffle(deckToPlay.cards);
        	cardIndex = 0;
        	initScoreboard(deckToPlay, level);
       },
