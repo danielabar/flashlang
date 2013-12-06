@@ -1,10 +1,11 @@
 'use strict';
 
 angular.module('flashlangApp')
-  .controller('ScoreCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ScoreCtrl', function ($scope, $routeParams, ScoreResource) {
+
+  	$scope.scoreId=$routeParams.id;
+
+		ScoreResource.get({id: $scope.scoreId}, function(scoreDetails) {
+   		$scope.score = scoreDetails;
+   	});
   });
