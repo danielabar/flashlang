@@ -1,19 +1,19 @@
 <div class="row">
-	<div class="span10">
-	  <div class="media" ng-repeat="deck in decks">
+	<div class="span10 offset1">
+	  <div class="media well" ng-repeat="deck in decks">
 	  	<a class="pull-left" href="#">
-	  		<img src="images/{{deck.name}}.jpg">
+	  		<img class="thumbnail" src="images/{{deck.name}}.jpg">
 	  	</a>
 	  	<div class="media-body">
-	  		<h4 class="media-heading">
+	  		<h2 class="media-heading">
 	  			<a ng-href="#/game/level/beginner/name/{{deck.name}}">{{deck.name}}</a>
-	  		</h4>
+	  		</h2>
+	  			<p>Language: <span class="label">{{deck.language}}</span></p>
 	  	</div>
 	  	<div class="media">
-	  		<p>{{deck.language}}</p>
-	  		<a ng-href="#/game/level/beginner/name/{{deck.name}}" class="btn btn-primary">Play beginner</a>
-	  		<a ng-href="#/game/level/intermediate/name/{{deck.name}}" class="btn btn-primary">Play intermediate</a>
-	  		<a ng-href="#/game/level/advanced/name/{{deck.name}}" class="btn btn-primary">Play advanced</a>
+	  		<a ng-href="#/game/level/beginner/name/{{deck.name}}" class="btn btn-success">Play beginner</a>
+	  		<a ng-href="#/game/level/intermediate/name/{{deck.name}}" class="btn btn-warning">Play intermediate</a>
+	  		<a ng-href="#/game/level/advanced/name/{{deck.name}}" class="btn btn-danger">Play advanced</a>
 	  	</div>
 	  </div>
 	</div>
