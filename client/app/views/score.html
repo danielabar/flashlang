@@ -1,9 +1,36 @@
-<h2>Score Summary</h2>
+<div class="page-header clearfix">
+	<h2>Score Summary</h2>
+	<h3>{{score.deckName}} <small>{{score.level}}</small> <small>{{score.language}}</small></h1>
+</div>
 
-			<div class="page-header clearfix">
-    		<h3>{{score.deckName}} <small>{{score.level}}</small> <small>{{score.language}}</small></h1>
-			</div>
+<div class="row">
+	<div class="span6">
+		<span class="badge badge-success">{{score.score}}</span>
+		out of <span class="badge badge-info">{{score.outOf}}</span>
+		on {{score.playedDate | date:medium}}</div>
+	</div>
+</div>
 
-<div>{{score.score}} out of {{score.outOf}} on {{score.playedDate | date:medium}}</div>
-
-<div>list cards here: {{score.incorrectCards}} and {{score.correctCards}}</div>
+<div class="row">
+	<div class="span12">
+		<table class="table">
+			<tbody>
+				<tr>
+					<th>Did you get it correct?</th>
+					<th>Correct answer</th>
+					<th>Your answer</th>
+				</tr>
+			</tbody>
+			<tr ng-repeat="card in score.incorrectCards">
+				<td><span class="badge badge-important">&#x2718</span></td>
+				<td>{{card.value}}</td>
+				<td>{{card.translated}}</td>
+			</tr>
+			<tr ng-repeat="card in score.correctCards">
+				<td><span class="badge badge-success">&#x2713</span></td>
+				<td>{{card.value}}</td>
+				<td>{{card.translated}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
