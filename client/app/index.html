@@ -13,6 +13,7 @@
 
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/nv.d3.css">
         <!-- endbuild -->
 </head>
   <body ng-app="flashlangApp">
@@ -62,16 +63,20 @@
 				<script src="bower_components/d3-tip/index.js"></script>
         <!-- endbuild -->
 
+        
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/lib/underscore-module.js"></script>
+        <script src="scripts/lib/nv.d3.min.js"></script>
         <script src="scripts/controllers/MainController.js"></script>
         <script src="scripts/controllers/NavbarController.js"></script>
         <script src="scripts/controllers/MyScoresController.js"></script>
         <script src="scripts/controllers/GameController.js"></script>
+        <script src="scripts/services/GameService.js"></script>
+        <script src="scripts/services/AudioService.js"></script>
         <script src="scripts/services/DeckResource.js"></script>
         <script src="scripts/services/ScoreResource.js"></script>
-        <script src="scripts/controllers/score.js"></script>
+        <script src="scripts/controllers/ScoreController.js"></script>
         <!-- endbuild -->
 </body>
 </html>
