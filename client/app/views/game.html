@@ -2,12 +2,13 @@
 	<div class="row">
 		<div class="span12 game">
 			<div class="page-header clearfix">
-    		<img class="thumbnail" src="img/{{deck.name}}.jpg"><h1>{{name}} <small>{{level}}</small> <small>{{deck.language}}</small><span class="pull-right">Score</span></h1>
+    		<img class="thumbnail" src="img/{{deck.name}}.jpg"><h1>{{name}} <small>{{level}}</small> <small>{{deck.language}}</small>
+    		<span class="pull-right">
+    			<span class="label">Score: {{scoreBoard.score}} correct out of {{scoreBoard.outOf}}</span>
 			</div>
-
-			<div class="container_progress">
+					<div class="container_progress">
 		     	<div class="progress progress-striped progressbar">
-		      	<div class="bar" ng-style="score_percent_style">{{progressBarText}}</div>  
+		      	<div class="bar" ng-style="score_percent_style"><p>Progress</p>{{progressBarText}}%</div>  
 		     	</div>
 		  	</div>
 		  	<i ng-show="currentCard.help" popover="{{currentCard.help}}" popover-trigger="mouseenter" class="icon-question-sign"></i>

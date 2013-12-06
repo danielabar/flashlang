@@ -1,8 +1,9 @@
-<p>This is the score view.</p>
+<h2>Score Summary</h2>
 
-<div>{{score.score}} out of {{score.outOf}}</div>
-<div>{{score.deckName}}</div> 
-<div>{{score.level}}</div> 
-<div>{{score.playedDate}}</div>
+			<div class="page-header clearfix">
+    		<h3>{{score.deckName}} <small>{{score.level}}</small> <small>{{score.language}}</small></h1>
+			</div>
+
+<div>{{score.score}} out of {{score.outOf}} on {{score.playedDate | date:medium}}</div>
 
 <div>list cards here: {{score.incorrectCards}} and {{score.correctCards}}</div>

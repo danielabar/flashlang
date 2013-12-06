@@ -16,8 +16,10 @@ angular.module('flashlangApp')
       	'<div class="card">' +
       		'<div class="question"><h3>{{message}}</h3></div>' +
       		'<p>{{display}}</p>' +
-      		'<div id="feedbackMarkerSuccess" class="circle circle-success"><i class="icon-ok icon-white"></i></div>' +
-      		'<div id="feedbackMarkerError" class="circle circle-error"><i class="icon-remove icon-white"></i></div>' +
+      		'<div class="feedback">' +
+      			'<div id="feedbackMarkerSuccess" class="circle circle-success"><i class="icon-ok icon-white"></i></div>' +
+      			'<div id="feedbackMarkerError" class="circle circle-error"><i class="icon-remove icon-white"></i></div>' +
+      		'</div>' +
       	'</div>',
       replace: true,
 
