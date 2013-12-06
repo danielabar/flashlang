@@ -220,6 +220,227 @@
   },
   {
     "playedDate": "2013-12-01T04:01:58.346Z",
+    "level": "Intermediate",
+    "score": 4,
+    "incorrectCards": [
+      {
+        "translated": "sei",
+        "value": "six"
+      },
+      {
+        "translated": "sette",
+        "value": "seven"
+      },
+      {
+        "translated": "otto",
+        "value": "eight"
+      },
+      {
+        "translated": "nove",
+        "value": "nine"
+      },
+      {
+        "translated": "dieci",
+        "value": "ten"
+      },
+      {
+        "translated": "quattro",
+        "value": "four"
+      },
+      {
+        "translated": "cinque",
+        "value": "five"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "zero",
+        "value": "zero"
+      },
+      {
+        "translated": "uno",
+        "value": "one"
+      },
+      {
+        "translated": "due",
+        "value": "two"
+      },
+      {
+        "translated": "tre",
+        "value": "three"
+      }
+    ],
+    "deckName": "Numbers",
+    "outOf": 11
+  },
+  {
+    "playedDate": "2013-12-02T03:47:45.504Z",
+    "level": "Intermediate",
+    "score": 6,
+    "incorrectCards": [
+      {
+        "translated": "zero",
+        "value": "zero"
+      },
+      {
+        "translated": "sette",
+        "value": "seven"
+      },
+      {
+        "translated": "otto",
+        "value": "eight"
+      },
+      {
+        "translated": "nove",
+        "value": "nine"
+      },
+      {
+        "translated": "dieci",
+        "value": "ten"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "uno",
+        "value": "one"
+      },
+      {
+        "translated": "due",
+        "value": "two"
+      },
+      {
+        "translated": "tre",
+        "value": "three"
+      },
+      {
+        "translated": "quattro",
+        "value": "four"
+      },
+      {
+        "translated": "cinque",
+        "value": "five"
+      },
+      {
+        "translated": "sei",
+        "value": "six"
+      }
+    ],
+    "deckName": "Numbers",
+    "outOf": 11
+  },
+  {
+    "playedDate": "2013-12-04T04:01:58.346Z",
+    "level": "Intermediate",
+    "score": 1,
+    "incorrectCards": [
+      {
+        "translated": "sei",
+        "value": "six"
+      },
+      {
+        "translated": "sette",
+        "value": "seven"
+      },
+      {
+        "translated": "otto",
+        "value": "eight"
+      },
+      {
+        "translated": "nove",
+        "value": "nine"
+      },
+      {
+        "translated": "dieci",
+        "value": "ten"
+      },
+      {
+        "translated": "uno",
+        "value": "one"
+      },
+      {
+        "translated": "due",
+        "value": "two"
+      },
+      {
+        "translated": "tre",
+        "value": "three"
+      },
+      {
+        "translated": "quattro",
+        "value": "four"
+      },
+      {
+        "translated": "cinque",
+        "value": "five"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "zero",
+        "value": "zero"
+      }      
+    ],
+    "deckName": "Numbers",
+    "outOf": 11
+  },
+  {
+    "playedDate": "2013-12-05T04:01:58.346Z",
+    "level": "Intermediate",
+    "score": 8,
+    "incorrectCards": [
+      
+      {
+        "translated": "due",
+        "value": "two"
+      },
+      {
+        "translated": "tre",
+        "value": "three"
+      },
+      {
+        "translated": "quattro",
+        "value": "four"
+      },
+      {
+        "translated": "cinque",
+        "value": "five"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "zero",
+        "value": "zero"
+      },
+      {
+        "translated": "sei",
+        "value": "six"
+      },
+      {
+        "translated": "sette",
+        "value": "seven"
+      },
+      {
+        "translated": "otto",
+        "value": "eight"
+      },
+      {
+        "translated": "nove",
+        "value": "nine"
+      },
+      {
+        "translated": "dieci",
+        "value": "ten"
+      },
+      {
+        "translated": "uno",
+        "value": "one"
+      }
+    ],
+    "deckName": "Numbers",
+    "outOf": 11
+  },
+  {
+    "playedDate": "2013-12-01T04:01:58.346Z",
     "level": "Advanced",
     "score": 7,
     "incorrectCards": [
@@ -378,6 +599,61 @@
       {
         "translated": "cinque",
         "value": "five"
+      }
+    ],
+    "deckName": "Numbers",
+    "outOf": 11
+  },
+  {
+    "playedDate": "2013-12-05T04:01:58.346Z",
+    "level": "Advanced",
+    "score": 9,
+    "incorrectCards": [      
+      {
+        "translated": "dieci",
+        "value": "ten"
+      },
+      {
+        "translated": "zero",
+        "value": "zero"
+      }
+    ],
+    "correctCards": [
+      {
+        "translated": "uno",
+        "value": "one"
+      },
+      {
+        "translated": "due",
+        "value": "two"
+      },
+      {
+        "translated": "tre",
+        "value": "three"
+      },
+      {
+        "translated": "quattro",
+        "value": "four"
+      },
+      {
+        "translated": "cinque",
+        "value": "five"
+      },
+      {
+        "translated": "sei",
+        "value": "six"
+      },
+      {
+        "translated": "sette",
+        "value": "seven"
+      },
+      {
+        "translated": "otto",
+        "value": "eight"
+      },
+      {
+        "translated": "nove",
+        "value": "nine"
       }
     ],
     "deckName": "Numbers",
