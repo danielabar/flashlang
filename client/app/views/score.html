@@ -1,6 +1,7 @@
 <div class="page-header clearfix">
 	<h2>Score Summary</h2>
-	<h3>{{score.deckName}} <small>{{score.level}}</small> <small>{{score.language}}</small></h1>
+	<h3>{{score.deckName}} <small>{{score.level}}</small> <small>{{score.language}}</small></h3>
+	<h3 ng-if="score.incorrectCards.length === 0">Congratulazioni! You got 100%!</h3>
 </div>
 
 <div class="row">
