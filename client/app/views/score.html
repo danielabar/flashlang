@@ -1,27 +1,27 @@
+
 <div class="page-header clearfix">
 	<h2>Score Summary</h2>
 	<h3>{{score.deckName}} <small>{{score.level}}</small> <small>{{score.language}}</small></h1>
 </div>
 
-<div class="row">
-	<div class="span6 scoreSummaryPadding">
+	<div class="scoreSummaryPadding well well-small">
 		<span class="badge badge-success">{{score.correctCards.length}}</span>
 		out of <span class="badge badge-info">{{score.outOf}}</span>
 		on {{score.playedDate | date: "medium"}}</div>
 	</div>
-</div>
+
 
 <div class="row">
 	<div class="span6" ng-if="score.incorrectCards.length > 0">
-		<table class="table">
-			<tbody>
+		<table class="table table-striped table-bordered">
+			<thead class="incorrect">
 				<tr>
 					<th>Correct?</th>
 					<th>Question</th>
 					<th>Answer</th>
 				</tr>
-			</tbody>
-			<tr ng-repeat="card in score.incorrectCards">
+			</thead>
+			<tr ng-repeat="card in score.incorrectCards" class="error">
 				<td><span class="badge badge-important">&#x2718</span></td>
 				<td>{{card.value}}</td>
 				<td>{{card.translated}}</td>
@@ -29,15 +29,15 @@
 		</table>
 	</div>
 	<div class="span6" ng-if="score.correctCards.length > 0">
-		<table class="table">
-			<tbody>
+		<table class="table table-striped table-bordered">
+			<thead class="correct">
 				<tr>
 					<th>Correct?</th>
 					<th>Question</th>
 					<th>Answer</th>
 				</tr>
-			</tbody>
-			<tr ng-repeat="card in score.correctCards">
+			</thead>
+			<tr ng-repeat="card in score.correctCards" class="success">
 				<td><span class="badge badge-success">&#x2713</span></td>
 				<td>{{card.value}}</td>
 				<td>{{card.translated}}</td>

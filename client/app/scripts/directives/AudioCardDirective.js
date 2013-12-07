@@ -55,7 +55,7 @@ angular.module('flashlangApp')
 
       	scope.$watch('behaviour', function(data) {
       		if (data && data.flipCard) {
-      			scope.message = 'Answer is:' + scope.carddata.translated;
+      			scope.message = 'Answer is: ' + scope.carddata.translated;
       			displayMarker(data.isAnswerCorrect);
       		} else {
       			hideMarker();
