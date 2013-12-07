@@ -6,9 +6,9 @@
     		<span class="pull-right">
     			<span class="label">Score: {{scoreBoard.score}} correct out of {{scoreBoard.outOf}}</span>
 			</div>
-					<div class="container_progress">
-		     	<div class="progress progress-striped progressbar">
-		      	<div class="bar" ng-style="score_percent_style">{{progressBarText}}</div>  
+				<div class="container_progress">
+		     	<div class="progress progress-warning progressbar">
+		      	<div class="bar" ng-style="score_percent_style" style="color:white;">{{progressBarText}}</div>  
 		     	</div>
 		  	</div>
 		  	<i ng-show="currentCard.help" popover="{{currentCard.help}}" popover-trigger="mouseenter" class="icon-question-sign"></i>
