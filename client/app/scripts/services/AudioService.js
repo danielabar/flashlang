@@ -6,6 +6,7 @@ angular.module('flashlangApp')
     var audioElement = $document[0].createElement('audio'); 
     var correctAnswerSound = "sounds/correct.mp3";
 		var incorrectAnswerSound = "sounds/incorrect.mp3";
+		var endCreditsSound = "sounds/StarWarsEndTitle.mp3";
 	  
 	  return {
 	    audioElement: audioElement,
@@ -22,6 +23,11 @@ angular.module('flashlangApp')
 	  	playIncorrect: function() {
 	  		this.play(incorrectAnswerSound);
 	  	},
+
+			playEndCredits: function() {
+	  		this.play(endCreditsSound);
+	  	},
+
 
 	  	playFeedback: function(result) {
 	  		if (result) {

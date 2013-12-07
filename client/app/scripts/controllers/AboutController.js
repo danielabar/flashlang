@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('flashlangApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('AboutCtrl', function ($scope, AudioService) {
     document.getElementById("homeNavBar").className = '';
     document.getElementById("myScoresNavBar").className = '';
     document.getElementById("aboutNavBar").className = 'active';
@@ -20,6 +20,9 @@ angular.module('flashlangApp')
     	{name : "Val Fletcher", url: "http://ca.linkedin.com/pub/dir/Val/Fletcher", githubid: "Val Fletcher",
     	img: "http://m.c.lnkd.licdn.com/mpr/pub/image-_pVCb8CXwiYufVqbRvPwSdNjGIL5Roe3_kH7wpdvG7pE0DaU_pV7FNLXGsCopa5zDtZ8/val-fletcher.jpg"}
     ];
-  });
 
+    $scope.playEndCredits = function() {
+    	AudioService.playEndCredits();
+    }
+  });
 
