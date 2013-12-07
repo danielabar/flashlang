@@ -9,6 +9,9 @@
 	  			<a ng-href="#/game/level/beginner/name/{{deck.name}}">{{deck.name}}</a>
 	  		</h2>
 	  			<p>Language: <span class="label">{{deck.language}}</span></p>
+	  		<h4>
+	  			<p>Last time you played you scored: <span class="label">{{deck.mostRecentScore.score}}</span> out of <span class="label">{{deck.mostRecentScore.outOf}}</span></p>
+	  		</h4>
 	  	</div>
 	  	<div class="media">
 	  		<a ng-href="#/game/level/beginner/name/{{deck.name}}" class="btn btn-success">Play beginner</a>

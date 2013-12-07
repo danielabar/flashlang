@@ -6,7 +6,7 @@ var _ = require('underscore');
 var async = require('async');
 
 var getRecentScoreByDeck = function(deckName, cb) {
-	Score.find({ 'deckName': deckName }, 'deckName playedDate score outOf').sort({ playedDate: 'desc'}).limit(1).exec(function(err, score) {
+	Score.find({ 'deckName': deckName }, 'deckName playedDate score outOf _id level').sort({ playedDate: 'desc'}).limit(1).exec(function(err, score) {
 		cb(err, score[0]);
 	});
 };
