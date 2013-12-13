@@ -2,7 +2,10 @@ var mongoose = require('mongoose');
 var logger = require('./log');
 
 // TODO: host/db/user/pswd should be configurable
-var mongoURL = 'mongodb://127.0.0.1/langfun';
+var mongoURL =
+	process.env.MONGOLAB_URI ||
+	process.env.MONGOHQ_URL ||
+	'mongodb://127.0.0.1/langfun';
 mongoose.connect(mongoURL);
 
 var db = mongoose.connection;
