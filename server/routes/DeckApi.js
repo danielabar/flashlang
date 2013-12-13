@@ -14,6 +14,7 @@ var getRecentScoreByDeck = function(deckName, cb) {
 exports.get = function(req, res) {
 	Deck.find(function(err, decks) {
 		if (err) {
+			console.dir(err);
 			logger.error(module + ' get all deck err: ' + err);
 			res.send(err);
 		} else {
