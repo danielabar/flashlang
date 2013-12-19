@@ -1,7 +1,9 @@
 flashlang
 =========
 
-An app for making language learning fun
+An app for making language learning fun. 
+This was a JavaScript hackathon project. View the demo [here](http://flashlang.herokuapp.com)
+
 
 ## Setup Instructions
 1. Install [MongoDB](http://docs.mongodb.org/manual/installation/)
